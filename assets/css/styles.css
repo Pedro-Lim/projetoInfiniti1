@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);  
+}
+header{
+    background-color:gray;
+}
+footer{
+    background-color: maroon;
+    font-size: 15px;
+
+}
+ 
+img{
+    height: 500px;
+    
+    
+}
+button{
+    background-color:greenyellow;
+    height:50px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+div{
+    background-color:gray;
+    
+    
+}
+.menu{
+    text-align: center;
+}
+.MenuItem{
+    padding: 15px;
+    list-style: none;
+    display: inline-block;
+}
+.MenuItem a{
+    color:white;
+    background-color:gray;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+
+.MenuItem a:hover{
+    color:darkgray;
+    background-color:white;
+
+}
+.whiteText{
+    color: white;
+    font-size:25px;
+}
+.div1{
+    margin:0px 150px 10px 150px;
+
+}
+.animateScale {
+    transition: all .2s linear;
+    animation:scale .5s;
+}
+.animateGrayToPorpule{
+    transition: all .2s linear;
+    animation:grayToPorpule 2s;
+
+}
+.animateCirculeToSqare{
+    transition: all 10s linear;
+    animation:circuleToSquare 2s;
+
+}
+#cabecalho{
+    height:100vh;
+
+}
+
+/* ANIMAÇÕES */
+@keyframes grayToPorpule {
+    from { background-color: gray;}
+    to { background-color: purple;}
+    
+}
+@-webkit-keyframes grayToPorpule {
+    from { background-color: gray;}
+    to { background-color: purple;}
+    
+}
+@keyframes scale {
+    from{
+        transform: scale(0);
+    }    
+    to{
+        transform: scale(1);
+    }  
+}
+
+@-webkit-keyframes scale {
+    from{
+        transform: scale(0);
+    }    
+    to{
+        transform: scale(1);
+    }  
+   
+}
+@keyframes circuleToSquare {
+    from { border-radius: 50%;}
+    to { border-radius: 1%;}
+    
+}
+@-webkit-keyframes circuleToSquare {
+    from { border-radius: 100%;}
+    to { border-radius: 1%;}
+    
+}
+
+
+
+
