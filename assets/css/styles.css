@@ -8,7 +8,8 @@ header{
 footer{
     background-color: maroon;
     font-size: 15px;
-
+    
+    
 }
  
 img{
@@ -53,7 +54,9 @@ div{
     font-size:25px;
 }
 .div1{
-    margin:0px 150px 10px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .animateScale {
@@ -70,11 +73,21 @@ div{
     animation:circuleToSquare 2s;
 
 }
+
+.textoAlinhado{
+    text-align: center;
+}
 #cabecalho{
-    height:100vh;
+    text-align: center;
 
 }
-
+#img{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 /* ANIMAÇÕES */
 @keyframes grayToPorpule {
     from { background-color: gray;}
@@ -132,7 +145,7 @@ div{
 }
 @media(min-width:1400px){
     div{
-        background-color: yellow;
+        background-color: gray;
     }
 
 
